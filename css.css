@@ -10,11 +10,21 @@ body, html {
 .landingPage {
 	background: #1abc9c;
 	height: 100vh;
-	/* need this if using an image */
 	background: url('images/backgrounds/bg_desktop.jpg') no-repeat center center;
 	background-size: cover;
 }
 
+header {
+	
+}
+
+.header_logo {
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 200px;
+}
+
+/* commented out currently */
 section {
 	height: 400px;
 	text-align: center;
