@@ -1,21 +1,24 @@
 body, html {
-	background: lightblue;
+	margin: 0;
+	height: 100%;
+}
+
+.container {
+
+}
+
+.landingPage {
+	background: #1abc9c;
 	height: 100vh;
-	position: relative;
+	/* need this if using an image */
+	background: url('images/backgrounds/bg_desktop.jpg') no-repeat center center;
+	background-size: cover;
 }
 
-
-.title-box {
-	border: 1px dashed black;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	padding: 30px;
+section {
+	height: 400px;
 	text-align: center;
-	min-width: 600px;
-}
 
-h1 {
-	font-size: 30px;
+	border-bottom: 1px solid black;
+
 }
