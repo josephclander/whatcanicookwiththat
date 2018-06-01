@@ -29,6 +29,7 @@ header {
 	
 }
 
+/* Breaking div fix */
 .container:after {
 	content: "";
 	display: table;
@@ -42,10 +43,13 @@ header {
 }
 
 .instagram {
-	margin-top: 38px;
-	margin-right: 30px;
-	font-size: 12em;
-	color: #33B7F8;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	font-size: 4em;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 /* commented out currently */
