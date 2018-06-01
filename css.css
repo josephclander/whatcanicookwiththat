@@ -4,6 +4,10 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .landingPage {
 	position: relative;
 	/*background: #1abc9c; */
@@ -31,17 +35,45 @@ body, html {
 	right: 0;
 }
 
+.phone-status {
+	height: 20px;
+	text-align: center;
+	font-size: .8em;
+}
+
+.position-absolute {
+	position: absolute;
+	top: 7px;
+}
+
+.signal {	
+	left: 10px;
+}
+
+.wifi {	
+	left: 40px;
+}
+
+.time {
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+.battery {
+	right: 10px;
+}
+
 .phone-title {
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 	width: 100%;
 	background: rgba(249, 249, 249, 1);
 	color: black;
-	text-align: center;
 	box-shadow: 0px 1px rgb(179, 179, 179);
 }
 
-.phone-title p {
+.caller {
 	padding: 10px;
 }
 
