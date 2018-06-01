@@ -4,36 +4,12 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
-
-.container {
-	position: relative;
-}
-
-.float_right {
-	float: right;
-}
-
-.float_left {
-	float: left;
-}
-
 .landingPage {
+	position: relative;
 	/*background: #1abc9c; */
 	height: 100vh;
 	background: url('images/backgrounds/bg_desktop.jpg') no-repeat center center;
 	background-size: cover;
-}
-
-header {
-	
-}
-
-
-.container:after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 .header_logo {
@@ -55,7 +31,52 @@ header {
 	right: 0;
 }
 
-/* commented out currently */
+.phone-title {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 100%;
+	background: rgba(249, 249, 249, 1);
+	color: black;
+	text-align: center;
+	box-shadow: 0px 1px rgb(179, 179, 179);
+}
+
+.phone-title p {
+	padding: 10px;
+}
+
+.phoneLog {
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.8);
+	min-height: 50vh;
+	width: 300px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+p {
+	margin: 0;
+}
+
+.message {
+	max-width: 200px;
+	border-radius: 10px;
+	padding: 8px;
+	margin: 10px;
+
+}
+
+.receiver {
+	background: rgba(220, 220, 220, 1);
+}
+
+.sender {
+	background: rgb(86, 192, 249, 1);
+	margin-left: auto;
+	color: white;
+}
+
 section {
 	height: 400px;
 	text-align: center;
