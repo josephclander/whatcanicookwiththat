@@ -109,6 +109,27 @@ p {
 	color: white;
 }
 
+.message-bar {
+	width: 100%;
+	background: rgba(249, 249, 249, 1);
+	padding: 5px 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.empty-text-bar {
+	width: 85%;
+	background: #ffffff;
+	color: lightgrey;
+	border-radius: 25px;
+	border: 1px solid rgb(200, 200, 200);
+	padding: 6px 10px;
+	margin: 5px auto;
+	
+
+}
+
+
 section {
 	height: 400px;
 	text-align: center;
