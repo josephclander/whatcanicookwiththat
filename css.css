@@ -1,3 +1,7 @@
+/*********************************************
+Styling
+*********************************************/
+
 body, html {
 	margin: 0;
 	height: 100%;
@@ -85,6 +89,11 @@ body, html {
 	position: absolute;
 	top: 30px;
 	right: 30px;
+	opacity: 0;
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
 p {
@@ -96,7 +105,38 @@ p {
 	border-radius: 10px;
 	padding: 8px;
 	margin: 10px;
+}
 
+.message:nth-of-type(1) {
+	opacity: 0;
+	animation-name: appear;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.message:nth-of-type(2) {
+	opacity: 0;
+	animation-name: appear;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+.message:nth-of-type(3) {
+	opacity: 0;
+	animation-name: appear;
+    animation-duration: 2s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+
+.message:nth-of-type(4) {
+	opacity: 0;
+	animation-name: appear;
+    animation-duration: 2s;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
 }
 
 .receiver {
@@ -125,8 +165,6 @@ p {
 	border: 1px solid rgb(200, 200, 200);
 	padding: 6px 10px;
 	margin: 5px auto;
-	
-
 }
 
 
@@ -135,5 +173,21 @@ section {
 	text-align: center;
 
 	border-bottom: 1px solid black;
-
 }
+
+/*********************************************
+Animations
+*********************************************/
+
+@keyframes appear {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+
+
+
+
+
+
+
