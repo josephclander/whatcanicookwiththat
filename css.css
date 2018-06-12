@@ -135,20 +135,17 @@ Mock Phone Settings
 
 .message:nth-of-type(2) {
 	opacity: 0;
-	animation: bubble 0.5s ease-out 4.5s forwards;
-	
+	animation: bubble 0.5s ease-out 4.5s forwards;	
 }
 
 .message:nth-of-type(3) {
 	opacity: 0;
-	animation: bubble 0.5s ease-out 6s forwards;
-	
+	animation: bubble 0.5s ease-out 6s forwards;	
 }
 
 .message:nth-of-type(4) {
 	opacity: 0;
 	animation: bubble 0.5s ease-out 7.5s forwards;
-
 }
 
 .receiver {
