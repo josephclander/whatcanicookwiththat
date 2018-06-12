@@ -11,7 +11,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-p, h1 {
+p, span, h1 {
 	margin: 0;
 }
 
@@ -148,6 +148,11 @@ Mock Phone Settings
 	animation: bubble 0.5s ease-out 7.5s forwards;
 }
 
+.message:nth-of-type(5) {
+	opacity: 0;
+	animation: bubble 0.5s ease-out 9s forwards;
+}
+
 .receiver {
 	background: rgba(220, 220, 220, 1);
 }
@@ -172,11 +177,16 @@ Mock Phone Settings
 .empty-text-bar {
 	width: 85%;
 	background: #ffffff;
-	color: lightgrey;
+	
 	border-radius: 25px;
 	border: 1px solid rgb(200, 200, 200);
 	padding: 6px 10px;
 	margin: 5px auto;
+}
+
+.placeholder {
+	color: lightgrey;
+	/*display: none;*/
 }
 
 
@@ -185,13 +195,8 @@ Animations
 *********************************************/
 
 @keyframes appear {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
+	from { opacity: 0;}
+	to { opacity: 1;}
 }
 
 @keyframes bubble {
@@ -204,8 +209,8 @@ Animations
 		opacity: 1;
 		transform: translateY(0%);
 	}
-
 }
+
 
 /*********************************************
 Sections General
