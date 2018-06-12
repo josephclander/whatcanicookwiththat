@@ -150,7 +150,8 @@ Mock Phone Settings
 
 .message:nth-of-type(5) {
 	opacity: 0;
-	animation: bubble 0.5s ease-out 9s forwards;
+	animation: bubble 0.5s ease-out 9s forwards,
+				wobble 2s linear 9.5s forwards;
 }
 
 .receiver {
@@ -210,6 +211,15 @@ Animations
 		transform: translateY(0%);
 	}
 }
+
+@keyframes wobble {
+	0%, 100% {transform: scale(1);}
+	50% {transform: scale(1.1);
+			background: rgb(9, 163, 246);
+		}
+	75% {transform: scale(0.95);}
+}
+
 
 
 /*********************************************
