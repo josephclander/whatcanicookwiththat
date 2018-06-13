@@ -115,7 +115,6 @@ Mock Phone Settings
 .phoneLog {
 	border-radius: 5px;
 	background: rgba(255, 255, 255, 0.8);
-	min-height: 50vh;
 	width: 300px;
 	position: absolute;
 	top: 30px;
@@ -313,6 +312,8 @@ Media Queries
 		display: flex;
 	}
 }
+
+/*** medium screens ***/
 
 @media screen and (max-width: 700px) {
 	.challenge {
