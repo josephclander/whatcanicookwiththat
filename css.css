@@ -163,7 +163,7 @@ Mock Phone Settings
 }
 
 .sender {
-	background: rgb(86, 192, 249, 1);
+	background: rgba(86, 192, 249, 1);
 	margin-left: auto;
 	color: white;
 }
